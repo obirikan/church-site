@@ -23,15 +23,9 @@ function App() {
       </svg>
       </div>
 </nav>
-<div className='
-  flex justify-center items-center h-screen text-5xl'
-  bg-gradient-to-r from-cyan-500 to-blue-500
-  >
-  LandingPage
-  </div>
-     {/* <Routes>
+     <Routes>
       <Route path='/' element={<LandingPage/>}/>
-     </Routes> */}
+     </Routes>
      
     </BrowserRouter>
   );
