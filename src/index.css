@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg{
+    background-color:aquamarine;
+    background-image: url('/public/1.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit:cover;
+}
+.pos{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
