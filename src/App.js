@@ -1,15 +1,13 @@
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
-import Navbar from './components/Navbar';
-import LandingPage from './components/LandingPage';
-import ContextPage from './Context/context'
+import {BrowserRouter} from 'react-router-dom'
+import Navbar from './components/Navbar';import ContextPage from './Context/context'
+
+import AnimatedRoutes from './components/AnimatedRoutes';
 function App() {
   return (
     <BrowserRouter>
   <ContextPage>
      <Navbar/>
-     <Routes>
-      <Route path='/' element={<LandingPage/>}/>
-     </Routes>
+      <AnimatedRoutes/>
   </ContextPage>
     </BrowserRouter>
   );

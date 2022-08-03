@@ -5,9 +5,10 @@ const Context=createContext()
 
 
  const ContextPage=({children})=>{
-    const [name,setname]=useState('loladwd')
+    const [box,setbox]=useState([])
+
      const values={
-        name
+        box
      }
     return(
      <Context.Provider value={{values}}>
