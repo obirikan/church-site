@@ -1,8 +1,15 @@
 import React from 'react'
-
+import {motion} from 'framer-motion'
+import '../index.css'
 const Side = () => {
   return (
-    <div className='flex justify-center items-center bg-slate-900 h-full'>
+    <motion.div
+     className='flex justify-center items-center h-full side'
+     initial={{x:-100}}
+     animate={{x:0}}
+     transition={{duration:2,type:'spring'}}
+    //  exit={{opacity:0}}
+    >
         <ul className='m-10'>
             <li>hello</li>
             <li>hello</li>
@@ -11,7 +18,7 @@ const Side = () => {
             <li>hello</li>
             <li>hello</li>
         </ul>
-    </div>
+    </motion.div>
   )
 }
 
