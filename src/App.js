@@ -4,12 +4,11 @@ import Navbar from './components/Navbar';import ContextPage from './Context/cont
 import AnimatedRoutes from './components/AnimatedRoutes';
 function App() {
   return (
+    <ContextPage>
     <BrowserRouter>
-  <ContextPage>
-     <Navbar/>
       <AnimatedRoutes/>
-  </ContextPage>
     </BrowserRouter>
+    </ContextPage>
   );
 }
 

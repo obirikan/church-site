@@ -8,11 +8,11 @@ const Side = () => {
      initial={{x:-100}}
      animate={{x:0}}
      transition={{duration:2,type:'spring'}}
-    //  exit={{opacity:0}}
+     exit={{opacity:0}}
     >
-        <ul className='m-10'>
-            <li>hello</li>
-            <li>hello</li>
+        <ul className='m-10  '>
+            <li>Home</li>
+            <li>Location</li>
             <li>hello</li>
             <li>hello</li>
             <li>hello</li>

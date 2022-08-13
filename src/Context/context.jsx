@@ -5,13 +5,13 @@ const Context=createContext()
 
 
  const ContextPage=({children})=>{
-    const [box,setbox]=useState([])
+    const [box,setbox]=useState(false)
 
      const values={
         box
      }
     return(
-     <Context.Provider value={{values}}>
+     <Context.Provider value={{box,setbox}}>
         {children}
      </Context.Provider>
     )

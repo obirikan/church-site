@@ -2,16 +2,17 @@ import React from 'react'
 import '../index.css'
 import {Main} from '../Context/context'
 import {motion} from 'framer-motion'
+// import { Main } from '../Context/context'
 import Side from './Side'
 
 const LandingPage = () => {
-const {values}=Main()
-  console.log(values)
-  const box=false
+const {box}=Main()
+
+  console.log(box)
   return (
   <>
     <motion.div className='bg
-     flex justify-center items-center h-screen'
+     flex justify-center items-center hi '
     initial={{opacity:0}}
     animate={{opacity:1}}
     exit={{opacity:0}}
@@ -22,8 +23,8 @@ const {values}=Main()
     <div className='side2'>
          {box?<Side/>:''}
     </div>
-    <div >
-        <h1><Side/></h1>
+    <div className='wavy'>
+     <h1>hello</h1>
     </div>
   </>
   )
