@@ -14,9 +14,9 @@
     height: 70vh;
 }
 .pos{
-    background-color: rgb(78, 76, 76);
+    background-color: rgb(255, 255, 255);
     position: sticky;
-    top: 123230px;
+    top: 0px;
 }
 .side{
     backdrop-filter:blur(5px);
@@ -32,8 +32,37 @@
 .f{
     border: 1px solid black;
 }
-.wavy{
-    background-image: url('/public/3.png');
-    position: relative;
-    bottom: 50px;
+.mandate{
+    background-color: aqua;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.m-child{
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+}
+.mandate-header{
+    font-size: 30px;
+}
+.second-sec{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    padding: 40px;
+}
+.name{
+    font-size: 30px;
+}
+.text-area{
+    display: flex;
+    justify-content: center;
+    
+}
+.sec-1{
+    display: grid;
+    grid-template-rows: 0.3fr 1fr;
 }

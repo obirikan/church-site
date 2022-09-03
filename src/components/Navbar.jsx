@@ -12,7 +12,6 @@ const Navbar = () => {
     )
 
   return (
-    <div>
 <nav className='flex justify-between items-center shadow-md h-16 text-black pos'>
     <div className='pl-5'>
         logo
@@ -30,7 +29,6 @@ const Navbar = () => {
       </svg>
       </div>
 </nav>
-    </div>
   )
 }
 
