@@ -13,7 +13,6 @@ const AnimatedRoutes = () => {
    <Navbar/>
     <Routes locaton={location} key={location.pathname}>
       <Route path='/' element={<LandingPage/>}/>
-      <Route path='/' element={<LandingPage/>}/>
       <Route path='/side' element={<Side/>}/>
     </Routes>
 {/* </AnimatePresence> */}
