@@ -14,7 +14,7 @@ const Page2 = () => {
                      <p className='txt'>Empower</p>
                  </div>
                  <div>
-                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas maxime ut consequatur corporis, 
+                     <p >Lore ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas maxime ut consequatur corporis, 
                       porro dignissimos, libero optio cupiditate itaque debitis 
                       quibusdam officiis vel eaque deserunt doloribus eos qui aperiam.
                       </p>
