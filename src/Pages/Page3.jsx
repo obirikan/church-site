@@ -5,7 +5,7 @@ const Page3 = () => {
     <div className='appre'>
         <div className='appre-child'>
              <h1 className='appre-text'>we are glad you are here</h1>
-            <button>Get to know us better</button>
+            <button className='appre-btn'>Get to know us better</button>
         </div>
     </div>
   )
