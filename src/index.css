@@ -109,7 +109,17 @@
 .appre{
     border: 1px solid black;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .appre-child{
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+.appre-text{
+    font-size: 40px;
 }
