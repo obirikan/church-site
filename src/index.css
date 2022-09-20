@@ -106,3 +106,10 @@
     align-items: center;
     flex-direction: column;
 }
+.appre{
+    border: 1px solid black;
+    height: 20vh;
+}
+.appre-child{
+    border: 1px solid black;
+}

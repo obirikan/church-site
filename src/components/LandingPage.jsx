@@ -5,6 +5,7 @@ import {motion} from 'framer-motion'
 import Side from './Side'
 import Page1 from '../Pages/Page1'
 import Page2 from '../Pages/Page2'
+import Page3 from '../Pages/Page3'
 
 const LandingPage = () => {
 const {box}=Main()
@@ -24,12 +25,12 @@ const {box}=Main()
     <div className='side2'>
          {box?<Side/>:''}
     </div>
-
-  
     {/* WHO WE ARE section */}
      <Page1/>
     {/* OUR MANDATE SECTION */}
     <Page2/>
+    {/* APPRECIATION */}
+    <Page3/>
   </>
   )
 }
