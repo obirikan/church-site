@@ -11,7 +11,7 @@ const Page2 = () => {
             <div className='container'>
                  <div className='imgcont'>
                      <img className='img1' src="https://firebasestorage.googleapis.com/v0/b/fir-101-50e00.appspot.com/o/images%2FAYSW2613.JPGdbc2a55b-805a-4c72-aeeb-e1aa0f4acb51?alt=media&token=0454b7ff-2f13-42f7-aa33-f511262d4689" alt="kkkk" />
-                     <p className='txt'>Empower</p>
+                     <p className='txt'>Raising Champions</p>
                  </div>
                  <div>
                      <p >Lore ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas maxime ut consequatur corporis, 
@@ -24,7 +24,7 @@ const Page2 = () => {
             <div className='container'>
                  <div className='imgcont'>
                      <img className='img1' src="https://firebasestorage.googleapis.com/v0/b/fir-101-50e00.appspot.com/o/images%2FAYSW2613.JPGdbc2a55b-805a-4c72-aeeb-e1aa0f4acb51?alt=media&token=0454b7ff-2f13-42f7-aa33-f511262d4689" alt="kkkk" />
-                     <p className='txt'>Empower</p>
+                     <p className='txt'>Empowering visions</p>
                  </div>
                  <div>
                      <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas maxime ut consequatur corporis, 
@@ -37,7 +37,7 @@ const Page2 = () => {
             <div className='container'>
                  <div className='imgcont'>
                      <img className='img1' src="https://firebasestorage.googleapis.com/v0/b/fir-101-50e00.appspot.com/o/images%2FAYSW2613.JPGdbc2a55b-805a-4c72-aeeb-e1aa0f4acb51?alt=media&token=0454b7ff-2f13-42f7-aa33-f511262d4689" alt="kkkk" />
-                     <p className='txt'>Empower</p>
+                     <p className='txt'>Reaching the society through the gospel</p>
                  </div>
                  <div>
                      <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptas maxime ut consequatur corporis, 
