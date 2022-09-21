@@ -6,6 +6,7 @@ import Side from './Side'
 import Page1 from '../Pages/Page1'
 import Page2 from '../Pages/Page2'
 import Page3 from '../Pages/Page3'
+import Page4 from '../Pages/Page4'
 
 const LandingPage = () => {
 const {box}=Main()
@@ -31,6 +32,8 @@ const {box}=Main()
     <Page2/>
     {/* APPRECIATION */}
     <Page3/>
+    {/* ima corosel */}
+    <Page4/>
   </>
   )
 }
